@@ -77,42 +77,61 @@
                 <button type="button" class="close-btn" data-modal-close>X</button>
                 <h2 class="modal-h2">Zostaw swoje dane w formularzu poniżej</h2>
 
-                <div class="input-wrapper">
-                    <label class="label-modal">Imie</label>
-                    <input class="input-modal" type="text" name="name">
-                    <svg class="svg-input" width="18" height="18">
-                        <use href="./svg/symbol-defs-2.svg#people"></use>
-                      </svg>
-                </div>
 
-                <div class="input-wrapper">
-                    <label class="label-modal">Telefon</label>
-                    <input class="input-modal" type="text" name="name">
-                    <svg class="svg-input-2" width="18" height="18">
-                        <use href="./svg/symbol-defs-2.svg#phone-modal"></use>
-                      </svg>
-                </div>
 
-                <div class="input-wrapper">
-                    <label class="label-modal">Email</label>
-                    <input class="input-modal" type="email" name="email">
-                    <svg class="svg-input-3" width="18" height="18">
-                        <use href="./svg/symbol-defs-2.svg#envelope-modal"></use>
-                      </svg>
-                </div>
 
-                <div class="input-wrapper">
-                    <label class="label-modal ">komentarz</label>
-                    <input class="input-modal-coment" type="text" name="coment" placeholder="Wprowadź tekst">
-                </div>
+        <div class="input-wrapper">
+            <form name="form-modal">
+                <label class="form-modal__label" for="username">
+                    <p class="label-modal">Imie</p>
+                        <input class="input-modal" type="text" name="username" for="username" id="username">
+                            <svg class="svg-input" width="18" height="18">
+                            <use href="./svg/symbol-defs-2.svg#people"></use>
+                            </svg>
+                </label>
+            </form>
+        </div>
 
+        <div class="input-wrapper">
+            <form name="form-modal">
+                <label class="form-modal__label" for="tel">
+                    <p class="label-modal">Telefon</p>
+                        <input class="input-modal" type="tel" name="tel" for="tel" id="tel">
+                            <svg class="svg-input-2" width="18" height="18">
+                            <use href="./svg/symbol-defs-2.svg#phone-modal"></use>
+                            </svg>
+                </label>
+            </form>
+        </div>
+
+        <div class="input-wrapper">
+            <form name="form-modal">
+                <label class="form-modal__label" for="tel">
+                    <p class="label-modal">Email</p>
+                        <input class="input-modal" type="email" name="email" for="email" id="email">
+                            <svg class="svg-input-3" width="18" height="18">
+                            <use href="./svg/symbol-defs-2.svg#envelope-modal"></use>
+                            </svg>
+                </label>
+            </form>
+        </div>
+
+
+        <div class="input-wrapper">
+            <form name="form-modal">
+                <label class="form-modal-coment__label" for="coment">
+                    <p class="label-modal">Komentarz</p>
+                        <input class="input-modal__coment" type="text" name="coment" for="coment" id="coment">
+                </label>
+            </form>
+        </div>
 
                 <form>
                 <input class="cookies" type="checkbox" name="cookies">
                 <label class="cookies-text">Oświadczam iż akceptuję <a class="cookies-link">Regulamin</a> i <a class="cookies-link">Politykę Prywatności</a>.</label>
                 </form>
 
-            <button type="submit" class="button-modal">Wyślij</button>
+            <button type="submit" class="submit-modal">Wyślij</button>
 
             </div>
 
