@@ -56,11 +56,13 @@
 
 
     </header>
-        <section class="container container-1">
-        <div class="container-2">
 
-        <h1 class="heading"><span class="text">EFEKTYWNE ROZWIĄZANIA<br>DLA WASZEGO BIZNESU</span></h1>
-        <button type="button" class="btn-main" data-modal-open=""><span class="btn-main-text">Zamów usługę</span></button>
+        <section class="container service-heading__background-photo">
+            
+        <div>
+
+        <h1 class="service-heading"><span class="service-heading__item">EFEKTYWNE ROZWIĄZANIA<br>DLA WASZEGO BIZNESU</span></h1>
+        <button type="button" class="service-heading__button" data-modal-open=""><span class="service-heading__button-text">Zamów usługę</span></button>
 
         </div>
 
@@ -69,18 +71,18 @@
 
         <div class="backdrop is-hidden" data-modal>
             <div class="modal"> 
-                <button type="button" class="close-btn" data-modal-close>X</button>
-                <h2 class="modal-h2">Zostaw swoje dane w formularzu poniżej</h2>
+                <button type="button" class="modal__close-btn" data-modal-close>X</button>
+                <h2 class="modal__heading">Zostaw swoje dane w formularzu poniżej</h2>
 
 
 
 
         <div class="input-wrapper">
             <form name="form-modal">
-                <label class="form-modal__label" for="username">
+                <label for="username">
                     <p class="label-modal">Imie</p>
                         <input class="input-modal" type="text" name="username" for="username" id="username">
-                            <svg class="svg-input" width="18" height="18">
+                            <svg class="input-modal__svg-username" width="18" height="18">
                             <use href="./svg/symbol-defs-2.svg#people"></use>
                             </svg>
                 </label>
@@ -89,10 +91,10 @@
 
         <div class="input-wrapper">
             <form name="form-modal">
-                <label class="form-modal__label" for="tel">
+                <label for="tel">
                     <p class="label-modal">Telefon</p>
                         <input class="input-modal" type="tel" name="tel" for="tel" id="tel">
-                            <svg class="svg-input-2" width="18" height="18">
+                            <svg class="input-modal__svg-tel" width="18" height="18">
                             <use href="./svg/symbol-defs-2.svg#phone-modal"></use>
                             </svg>
                 </label>
@@ -101,10 +103,10 @@
 
         <div class="input-wrapper">
             <form name="form-modal">
-                <label class="form-modal__label" for="tel">
+                <label for="tel">
                     <p class="label-modal">Email</p>
                         <input class="input-modal" type="email" name="email" for="email" id="email">
-                            <svg class="svg-input-3" width="18" height="18">
+                            <svg class="input-modal__svg-email" width="18" height="18">
                             <use href="./svg/symbol-defs-2.svg#envelope-modal"></use>
                             </svg>
                 </label>
@@ -123,7 +125,7 @@
 
                 <form>
                 <input class="cookies" type="checkbox" name="cookies">
-                <label class="cookies-text">Oświadczam iż akceptuję <a class="cookies-link">Regulamin</a> i <a class="cookies-link">Politykę Prywatności</a>.</label>
+                <label class="cookies__text">Oświadczam iż akceptuję <a class="cookies__link">Regulamin</a> i <a class="cookies__link">Politykę Prywatności</a>.</label>
                 </form>
 
             <button type="submit" class="submit-modal">Wyślij</button>
@@ -137,20 +139,22 @@
 
 
 
+
+
         <section class="container">
 
-        <ul class="text-index">
+        <ul class="index">
 
         <li>
-            <div class="text-index-element">
+            <div class="index__element">
 
-                <div class="attribute">
-                    <svg class="attribute-1" width="65" height="70">
+                <div class="index-element__svg">
+                    <svg class="index-element-svg__item" width="65" height="70">
                         <use href="./svg/symbol-defs.svg#Naszeatuty1"></use>
                     </svg>
                 </div>
                 
-                <h3 class="paragraf">LOREM IPSUM</h3>
+                <h3 class="index-element__paragraf">LOREM IPSUM</h3>
                 <p>
                     Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit. 
                     Nam vel arcu sem. <br>Sed non sodales dui. Interdum et malesuada
@@ -159,13 +163,13 @@
         </li>
 
         <li>
-            <div class="text-index-element">
-                <div class="attribute">  
-                    <svg class="attribute-1" width="65" height="70">
+            <div class="text-index__element">
+                <div class="index-element__svg">  
+                    <svg class="index-element-svg__item" width="65" height="70">
                         <use href="./svg/symbol-defs.svg#naszeatrybuty2"></use>
                     </svg>                     
                 </div>
-                <h3 class="paragraf">LOREM IPSUM</h3>
+                <h3 class="index-element__paragraf">LOREM IPSUM</h3>
                 <p>
                     Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit. 
                     Nam vel arcu sem. <br>Sed non sodales dui. Interdum et malesuada
@@ -174,13 +178,13 @@
         </li>
 
         <li>
-            <div class="text-index-element">
-                <div class="attribute">   
-                    <svg class="attribute-1" width="65" height="70">
+            <div class="text-index__element">
+                <div class="index-element__svg">   
+                    <svg class="index-element-svg__item" width="65" height="70">
                         <use href="./svg/symbol-defs.svg#naszeatrybuty3"></use>
                     </svg>  
                 </div>
-                <h3 class="paragraf">LOREM IPSUM</h3>
+                <h3 class="index-element__paragraf">LOREM IPSUM</h3>
                 <p>
                     Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit. 
                     Nam vel arcu sem. <br>Sed non sodales dui. Interdum et malesuada
@@ -189,13 +193,13 @@
         </li>
 
         <li>
-            <div class="text-index-element">
-                <div class="attribute">
-                    <svg class="attribute-1" width="65" height="70">
+            <div class="text-index__element">
+                <div class="index-element__svg">
+                    <svg class="index-element-svg__item" width="65" height="70">
                         <use href="./svg/symbol-defs.svg#naszeatrybuty4"></use>
                     </svg>  
                 </div>
-                <h3 class="paragraf">LOREM IPSUM</h3>
+                <h3 class="index-element__paragraf">LOREM IPSUM</h3>
                 <p>
                     Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit. 
                     Nam vel arcu sem. <br>Sed non sodales dui. Interdum et malesuada
@@ -204,16 +208,19 @@
         </li>
 
         </ul>
-
         </section>
 
-        <section class="container employee-list-container">
 
-           <h2 class="heading-2">Czym się zajmujemy</h2>
 
-        <ul class="we-do-list">
 
-            <li class="we-do-list-card">
+
+        <section class="container we-do">
+
+           <h2 class="we-do__heading">Czym się zajmujemy</h2>
+
+        <ul class="we-do__list">
+
+            <li class="we-do__card">
                 <div class="we-do-list-img">
                 <img src="./images/1.jpg" alt="zdjęcie rąk na klawiaturze" width="340">
                 <div class="overlay-2">
@@ -244,7 +251,7 @@
 
         </section>
 
-    <section class="container employee-list-container">
+    <section class="container we-do__list">
         
         <h2 class="heading-2">Nasz zespół</h2>
 
