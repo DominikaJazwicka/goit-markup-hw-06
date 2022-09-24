@@ -733,24 +733,7 @@ p {
 }
 
 
-
-
-
-
-
-/* 
-.box2 {
-    width: 170px;
-    height: 92px;
-    border: 1px solid;
-    border-color: var(--grey);
-    border-radius: 5px;
-} */
-
-
-
-
-/* portfolio style */
+/* Portfolio-styles */
 
 
 
@@ -758,9 +741,7 @@ p {
 
 
 
-
-
-.portfolio-buttons {
+.buttons__list {
 
     display: flex;
     flex-wrap: wrap;
@@ -770,12 +751,12 @@ p {
 
 }
 
-.button-element {
+.button-list__element {
     padding: 10px;
 }
 
 
-.schedule-body {
+.button__item {
     transition-duration: 0.5s;
     display: inline;
     width: 114px;
@@ -789,11 +770,11 @@ p {
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
-.schedule-body:focus {
+.button__item:focus {
     color: var(--blue);
 }
 
-.schedule-body:hover {
+.button__item:hover {
     width: 121px;
     height: 38px;
     cursor: pointer;
@@ -810,12 +791,29 @@ p {
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.portfolio__card {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 94px;
+    padding-bottom: 40px;
+    border: 1px solid;
+    border-color: var(--white);
+}
 
+.portfolio__card:hover {
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
 
-
-
-  .box {
+  .portfolio__box {
     overflow: hidden;
     position: relative;
     width: 294px;
@@ -825,7 +823,7 @@ p {
     background-color: var(--grey);
 }
 
-.overlay {
+.portfolio__overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -835,62 +833,32 @@ p {
     opacity: 90%;
     transform: translateY(100%);
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-    
-
 }
 
-.overlay > p {
+.portfolio__overlay > p {
     color: var(--white);
     font-size: 16px;
     padding-left: 24px;
     padding-top: 50px;
 }
 
-.box:hover .overlay {
+.portfolio__box:hover .portfolio__overlay {
   transform: translateY(0);
-  
 }
 
-
-
-
-
-
-.img-portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.img-portfolio-card {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 94px;
-    padding-bottom: 40px;
-    border: 1px solid;
-    border-color: var(--white);
-}
-
-.text-portfolio-card {
+.portfolio__heading {
     margin-top: 15px;
     margin-left: 20px;
     font-size: 16px;
     margin-bottom: 15px;
 }
 
-
-
-.div-text {
+.portfolio__text {
     margin-left: 20px;
 }
 
 
-.img-portfolio-card:hover {
-    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer;
-}
+
 
 
 
